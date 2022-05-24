@@ -1,4 +1,5 @@
 #!/bin/sh
+export MQTT_BROKER=${MQTT_BROKER:-localhost}
 export MQTT_PORT=${MQTT_PORT:-1883}
 export MQTT_USERNAME=${MQTT_USERNAME:-null}
 export MQTT_PASSWORD=${MQTT_PASSWORD:-null}
