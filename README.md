@@ -16,6 +16,8 @@ Please note: This is my first attempt in creating docker images. I'm happy for a
       -e UUID="00000000000000000000000000000000" \
       comfoairq-homie-docker    
   
+Note: host type network allows the script to discover the comfoconnect device, the default bridge might not work.
+
 You may want to specify further environment variables to configure the MQTT broker:
 
 | ENV | ComfoAirQ-Homie setting | default | Description |
