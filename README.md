@@ -20,7 +20,7 @@ Note: host type network allows the script to discover the comfoconnect device, t
 
 You may want to specify further environment variables to configure the MQTT broker:
 
-| ENV | ComfoAirQ-Homie setting | default | Description |
+| ENV (-e) | ComfoAirQ-Homie setting | default | Description |
 | --- | --- | --- | --- |
 | $PIN | COMFOCONNECT_PIN | *none (required)* | Comfoconnect Module PIN |
 | $UUID | COMFOCONNECT_UUID | *none (required)* | Comfoconnect Module UUID |
