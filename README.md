@@ -14,7 +14,8 @@ Please note: This is my first attempt in creating docker images. I'm happy for a
     docker run --init --network host \
       -e PIN="xxxx" \
       -e UUID="00000000000000000000000000000000" \
-      comfoairq-homie-docker    
+      --name comfoairq-homie
+      comfoairq-homie-docker
   
 Note: host type network allows the script to discover the comfoconnect device, the default bridge might not work.
 
